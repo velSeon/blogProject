@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+    .tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
+    .tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+      font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+    .tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+      font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+    .tg .tg-7ivu{background-color:#fffc9e;font-weight:bold;text-align:left;vertical-align:top}
+    .tg .tg-w8l0{background-color:#fffc9e;font-weight:bold;text-align:center;vertical-align:top}
+    .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+    .tg .tg-0lax{text-align:left;vertical-align:top}
+    .tg .tg-8xib{background-color:#fffc9e;text-align:center;vertical-align:top}
+    </style>
+</head>
+<body>
+
+hello
+{{data}}<br>
+stock_name : {{data['stock_name']}}
+stock_code : {{data['stock_code']}}
+now_price : {{data['now_price']}}
+close : {{data['close']}}
+high : {{data['high']}}
+open : {{data['open']}}
+low : {{data['low']}}
+
+<br>
+<br>
+
+<table class="tg" style="undefined;table-layout: fixed; width: 598px">
+    <colgroup>
+    <col style="width: 90px">
+    <col style="width: 85px">
+    <col style="width: 89px">
+    <col style="width: 107px">
+    <col style="width: 107px">
+    <col style="width: 120px">
+    </colgroup>
+    <thead>
+      <tr>
+        <th class="tg-w8l0">종목명</th>
+        <th class="tg-w8l0">종목코드</th>
+        <th class="tg-w8l0">현재가</th>
+        <th class="tg-w8l0">종가</th>
+        <th class="tg-w8l0">고가</th>
+        <th class="tg-w8l0">저가</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="tg-0pky">{{data['stock_name']}}</td>
+        <td class="tg-0lax">{{data['stock_code']}}</td>
+        <td class="tg-0lax">{{data['now_price']}}</td>
+        <td class="tg-0lax">{{data['close']}}</td>
+        <td class="tg-0lax">{{data['high']}}</td>
+        <td class="tg-0lax">{{data['low']}}</td>
+      </tr>
+      <tr>
+        <td class="tg-w8l0">매수일자</td>
+        <td class="tg-w8l0">매수가</td>
+        <td class="tg-w8l0">수량</td>
+        <td class="tg-w8l0">매입 총액</td>
+        <td class="tg-w8l0">매도 총액</td>
+        <td class="tg-w8l0">손익</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+      </tr>
+      <tr>
+        <td class="tg-w8l0">수익율</td>
+        <td class="tg-w8l0">투자기간</td>
+        <td class="tg-w8l0">주식자산</td>
+        <td class="tg-8xib"></td>
+        <td class="tg-8xib"></td>
+        <td class="tg-8xib"></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-0lax"></td>
+      </tr>
+      <tr>
+        <td class="tg-7ivu" colspan="6">매도이유</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax" colspan="6"></td>
+      </tr>
+    </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+    "params":
+    {
+        "local_server": "True",
+        "local_url" : "sqlite://///Users/inseon/Documents/sqlite3/test.db",
+        "prod_url" : "sqlite://///Users/inseon/Documents/sqlite3/test.db",
+        "fb_url" : "https://facebook.com/velSeon",
+        "tw_url" : "https://twitter.com/velSeon",
+        "gh_url" : "https://github.com/velSeon",
+        "blog_name" : "Coding velSeon",
+        "tagline" : "A Blog liked by My Coding Story",
+        "gmail-user" : "seonday28@gmail.com",
+        "gmail-password" : "wmf8956A!",
+        "about_text" : "HELLO~ My name is Inseon and This is my programming blog",
+        "no_of_posts" : 3 ,
+        "login_image" : "login_img.png" ,
+        "admin_user" : "inseon",
+        "admin_password" : "velSeon",
+        "upload_location" : "/Users/inseon/Documents/daily_stock/static"
+
+    }
+}
